@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DDubucks.Views.Page1">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Test"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+<TabbedPage
+  x:Class="DDubucks.Views.TestPage"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+  xmlns:views="clr-namespace:DDubucks" xmlns:views1="clr-namespace:DDubucks.Views"
+    android:TabbedPage.ToolbarPlacement="Bottom">
+    <TabbedPage.Children>
+        <NavigationPage
+      Title="Main"
+      BackgroundColor="White"
+      Icon="tab_feed.png">
+            <x:Arguments>
+                <views1:MainPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage
+      Title="Test"
+      BackgroundColor="White"
+      Icon="tab_about.png">
+            <x:Arguments>
+                <views1:Page1 />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

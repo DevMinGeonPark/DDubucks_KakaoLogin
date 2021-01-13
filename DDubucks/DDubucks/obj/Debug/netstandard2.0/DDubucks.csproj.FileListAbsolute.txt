@@ -15,5 +15,5 @@ C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\DD
 C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\LottieAnimationPage.xaml.g.cs
 C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\MenuTabbedPage.xaml.g.cs
-C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\AppShell.xaml.g.cs
 C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\TestPage.xaml.g.cs
+C:\Users\min\source\repos\DDubucks\DDubucks\DDubucks\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs

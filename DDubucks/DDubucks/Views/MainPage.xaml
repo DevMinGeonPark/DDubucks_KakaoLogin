@@ -10,9 +10,10 @@
     <StackLayout>
         <Label Text="TEST"/>
     </StackLayout>
-    
 
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="test" Order="Primary" Priority="0"/>
+    </ContentPage.ToolbarItems>
 
 </ContentPage>
     

@@ -34,6 +34,8 @@ namespace DDubucks
             containerRegistry.RegisterForNavigation<MainPage>();
             containerRegistry.RegisterForNavigation<LoginPage>();
             containerRegistry.RegisterForNavigation<LottieAnimationPage>();
+            containerRegistry.RegisterForNavigation<TestPage>();
+
 
         }
     }

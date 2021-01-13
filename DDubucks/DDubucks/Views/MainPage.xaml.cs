@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 namespace DDubucks.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage 
+    public partial class MainPage : ContentPage
     {
         public MainPage()
         {

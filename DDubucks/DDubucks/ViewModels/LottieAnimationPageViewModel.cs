@@ -40,8 +40,8 @@ namespace DDubucks.ViewModels
                                                   };
                                                   */
 
-                                                  await NavigationService.NavigateAsync("app:///AppShell");
-                                                  //await NavigationService.NavigateAsync("NavigationPage/MainPage", p);
+                                                  await NavigationService.NavigateAsync("app:///TestPage");
+                                                  //await NavigationService.NavigateAsync("NavigationPage/TestPage");
                                               }
                                               else//SNS로긴 정보가 없으면
                                               {
