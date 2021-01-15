@@ -1292,11 +1292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj",
+      "projectUniqueName": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj",
       "projectName": "DDubucks",
-      "projectPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj",
+      "projectPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj",
       "packagesPath": "C:\\Users\\min\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\obj\\",
+      "outputPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -4,24 +4,49 @@
   xmlns="http://xamarin.com/schemas/2014/forms"
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-  xmlns:views="clr-namespace:DDubucks" xmlns:views1="clr-namespace:DDubucks.Views"
+    xmlns:local="clr-namespace:DDubucks.Views"
     android:TabbedPage.ToolbarPlacement="Bottom">
     <TabbedPage.Children>
-        <NavigationPage
-      Title="Main"
-      BackgroundColor="White"
-      Icon="tab_feed.png">
+        <NavigationPage 
+            Title="Main"
+            BackgroundColor="White"
+            Icon="main.png">
             <x:Arguments>
-                <views1:MainPage />
+                <local:MainPage />
             </x:Arguments>
         </NavigationPage>
         <NavigationPage
-      Title="Test"
-      BackgroundColor="White"
-      Icon="tab_about.png">
+             Title="Coupon"
+             BackgroundColor="White"
+             Icon="coupon.png">
             <x:Arguments>
-                <views1:Page1 />
+                <local:CouponPage />
             </x:Arguments>
         </NavigationPage>
+        <NavigationPage
+            Title="MyPage"
+            BackgroundColor="White"
+            Icon="mypage.png">
+            <x:Arguments>
+                <local:MyPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage
+            Title="MyCoupon"
+            BackgroundColor="White"
+            Icon="mycoupon.png">
+            <x:Arguments>
+                <local:MyCouponPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage
+            Title="MapPage"
+            BackgroundColor="White"
+            Icon="map.png">
+            <x:Arguments>
+                <local:MapPage />
+            </x:Arguments>
+        </NavigationPage>
+
     </TabbedPage.Children>
 </TabbedPage>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+kfNf8byvpnUO066VkssSKHElSg7WWSMgJnYbGVPbgxZsjKemb+JWXoeLOuz69H/Tk9Bx5ecVAsbaWQcP5MvSg==",
+  "dgSpecHash": "TrXtjBEiYaXZ//m2iMhyReN9cgSpQcNEN5ArxVN3yBgMQG5h/m+xF/TGvv1lGfiebfh9To6qC+KUdMK20smulA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
+  "projectFilePath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\min\\.nuget\\packages\\com.airbnb.android.lottie\\3.5.0\\com.airbnb.android.lottie.3.5.0.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.8\\com.airbnb.xamarin.forms.lottie.4.0.8.nupkg.sha512",

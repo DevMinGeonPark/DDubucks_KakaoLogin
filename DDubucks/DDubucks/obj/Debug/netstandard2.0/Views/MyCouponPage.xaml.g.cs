@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("DDubucks.Views.Page1.xaml", "Views/Page1.xaml", typeof(global::DDubucks.Views.Page1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("DDubucks.Views.MyCouponPage.xaml", "Views/MyCouponPage.xaml", typeof(global::DDubucks.Views.MyCouponPage))]
 
 namespace DDubucks.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Page1.xaml")]
-    public partial class Page1 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MyCouponPage.xaml")]
+    public partial class MyCouponPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MyCouponPage));
         }
     }
 }

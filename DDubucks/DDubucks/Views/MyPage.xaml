@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="DDubucks.Views.MyPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <pancakeview:PancakeView HeightRequest="250" CornerRadius="0,0,0,100">
+                <pancakeview:PancakeView.Shadow>
+                    <pancakeview:DropShadow Color="#000" Offset="10,10"/>
+                </pancakeview:PancakeView.Shadow>
+                <pancakeview:PancakeView.BackgroundGradientStops BackgroundGradientStartPoint="0,0"
+                                                                         BackgroundGradientEndPoint="1,0">
+                    <pancakeview:GradientStop Color="#01c9ca" Offset="0"/>
+                    <pancakeview:GradientStop Color="#3886FF" Offset="1"/>
+                </pancakeview:PancakeView.BackgroundGradientStops>
+                <StackLayout VerticalOptions="CenterAndExpand" Margin="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0"  Text="{Binding User.Name}" FontSize="42" FontAttributes="Bold"/>
+                        <Label Grid.Row="1" Text="Gold" FontSize="15" TextColor="#FFF"/>
+
+
+                    </Grid>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding="0,30,0,0">
+                        <Button Text="A"/>
+                        <Button Text="B"/>
+                        <Button Text="C"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </pancakeview:PancakeView>
+            <Label Margin="20,0,0,0" Text="나의 혜택" FontSize="32" FontAttributes="Bold" TextColor="Black" Padding="0,10,0,10"/>
+            <Label Margin="20,0,0,0" Text="찜목록" FontSize="32" FontAttributes="Bold" TextColor="Black" Padding="0,10,0,10"/>
+            <Label Margin="20,0,0,0" Text="뚜벅스 멤버스" FontSize="32" FontAttributes="Bold" TextColor="Black" Padding="0,10,0,10"/>
+            <Label Margin="20,0,0,0" Text="이벤트" FontSize="32" FontAttributes="Bold" TextColor="Black" Padding="0,10,0,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

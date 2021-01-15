@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj": {}
+    "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj": {
+    "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
+        "projectUniqueName": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
         "projectName": "DDubucks.Android",
-        "projectPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
+        "projectPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\DDubucks.Android.csproj",
         "packagesPath": "C:\\Users\\min\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks.Android\\obj\\",
+        "outputPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj": {
-                "projectPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj"
+              "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj": {
+                "projectPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj": {
+    "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj",
+        "projectUniqueName": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj",
         "projectName": "DDubucks",
-        "projectPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj",
+        "projectPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj",
         "packagesPath": "C:\\Users\\min\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\obj\\",
+        "outputPath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

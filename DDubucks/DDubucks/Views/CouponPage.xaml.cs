@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace DDubucks.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class CouponPage : ContentPage
     {
-        public Page1()
+        public CouponPage()
         {
             InitializeComponent();
         }

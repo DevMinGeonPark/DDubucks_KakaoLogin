@@ -1,1 +1,1 @@
-<Devices><Device id="R54N902KQ8D"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>29</SdkVersion></Device></Devices>
+<Devices><Device id="emulator-5554"><ResultingAbi>x86</ResultingAbi><SdkVersion>29</SdkVersion></Device><Device id="R54N902KQ8D"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>29</SdkVersion></Device><Device id="R54M803Q3GL"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>29</SdkVersion></Device><Device id="R3CN100XTHW"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>29</SdkVersion></Device></Devices>

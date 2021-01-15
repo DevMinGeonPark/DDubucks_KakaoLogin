@@ -32,15 +32,15 @@ namespace DDubucks.ViewModels
                                               //SNS로긴 정보가 있으면
                                               if (await authenticationService.UserIsAuthenticatedAndValidAsync()) 
                                               {
-                                                  /*
+                                                  
                                                   var user = AppSettings.User;
                                                   var p = new NavigationParameters
                                                   {
                                                       { "user", user }
                                                   };
-                                                  */
+                                                  
 
-                                                  await NavigationService.NavigateAsync("app:///TestPage");
+                                                  await NavigationService.NavigateAsync("app:///TestPage", p);
                                                   //await NavigationService.NavigateAsync("NavigationPage/TestPage");
                                               }
                                               else//SNS로긴 정보가 없으면

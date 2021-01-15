@@ -10,12 +10,22 @@
     <ContentPage.Behaviors>
         <prismbehavior:EventToCommandBehavior EventName="Appearing" 
                                         Command="{Binding AuthenticationCheckCommand}"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ContentPage.Behaviors>
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="logo.png"/>
             <lottie:AnimationView 
             x:Name="animationView" 
-            Animation="thirsty.json" 
+            Animation="animation_300_kjxwe00c.gif" 
             VerticalOptions="FillAndExpand" 
             HorizontalOptions="FillAndExpand" />
         </StackLayout>

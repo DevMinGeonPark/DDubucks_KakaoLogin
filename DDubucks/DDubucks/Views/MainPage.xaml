@@ -2,18 +2,112 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DDubucks.Views.MainPage"
-             xmlns:sys="clr-namespace:System;assembly=netstandard"
-             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             NavigationPage.HasNavigationBar="False"
              Title="{Binding Title}">
 
-    <StackLayout>
-        <Label Text="TEST"/>
+    <StackLayout Margin="0" 
+                     Padding="0" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="FillAndExpand" 
+                     BackgroundColor="White">
+        <Image Source="ddubucks_logo.png" />
+        
+        <Grid HorizontalOptions="FillAndExpand" 
+                  HeightRequest="200" 
+                  Margin="0" 
+                  Padding="0" 
+                  ColumnSpacing="0" 
+                  RowSpacing="0" 
+                  BackgroundColor="White">
+            <CarouselView  x:Name="mainView" 
+                               ItemsLayout="HorizontalList" 
+                               Margin="0" 
+                               BackgroundColor="LightYellow" 
+                               HorizontalScrollBarVisibility="Always">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image 
+                            Source="{Binding ImageSrc}" 
+                                         Aspect="AspectFill"/>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </Grid>
+
+        <StackLayout VerticalOptions="StartAndExpand"
+                         HeightRequest="200"
+                         Orientation="Horizontal"
+                         BackgroundColor="White"
+                         Padding="30,0,30,0">
+            <StackLayout
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Padding="0,0,50,0">
+                <Label Text="배우는 여행중인"
+                       FontSize="20"
+                       Margin="2,0,0,0"/>
+                <StackLayout
+                    Orientation="Horizontal">
+                    <Label Text="{Binding User.Name}"
+                           FontSize="32"
+                           FontAttributes="Bold"/>
+                    <Label Text="님"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           Margin="0,10,0,0"/>
+                </StackLayout>
+                
+            </StackLayout>
+            <BoxView Color="Gray"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         HeightRequest="100"
+                         WidthRequest="2"/>
+            <StackLayout 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Padding="30,0,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="coupon_dark.png"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               HeightRequest="40"
+                               WidthRequest="40"/>
+                    <Label Grid.Column="1"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Text="3개"
+                               FontSize="Large"
+                               FontAttributes="Bold"/>
+                    <Image Source="stamp.png"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               HeightRequest="40"
+                               WidthRequest="40"
+                               Grid.Row="1"/>
+                    <Label Grid.Row="1"
+                               Grid.Column="1"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Text="12개"
+                               FontSize="Large"
+                               FontAttributes="Bold"/>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
     </StackLayout>
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="test" Order="Primary" Priority="0"/>
-    </ContentPage.ToolbarItems>
+    
 
 </ContentPage>
     

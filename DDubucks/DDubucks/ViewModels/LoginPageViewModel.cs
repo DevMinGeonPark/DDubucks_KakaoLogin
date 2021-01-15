@@ -76,7 +76,8 @@ namespace DDubucks.ViewModels
                     { "user", user }
                 };
 
-                await NavigationService.NavigateAsync("NavigationPage/MainPage", p);
+                await NavigationService.NavigateAsync("app:///TestPage", p);
+
             }
         }
         #endregion

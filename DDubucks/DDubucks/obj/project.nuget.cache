@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZigXphjG0942/f3zrtHOkSWVLeR48D5GsbfwWyrHDV2xbxYITs2s6Er94r9YTUIdz4+QeFEq/eOec5WIHC1bAw==",
+  "dgSpecHash": "lWcqMMW7/0E1aSs5A37oh2kcqSjCZxsNcbxLjvXUeQJZtUh/iTS7n/l5r9j97EGJGq6SIRSMEpVWtCiTnLZ8DA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\min\\source\\repos\\DDubucks\\DDubucks\\DDubucks\\DDubucks.csproj",
+  "projectFilePath": "C:\\Users\\min\\Desktop\\DDubucks_KakaoLogin\\DDubucks_KakaoLogin\\DDubucks\\DDubucks\\DDubucks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\min\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.8\\com.airbnb.xamarin.forms.lottie.4.0.8.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
